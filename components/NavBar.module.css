@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-bewtween;
+    align-items: center;
+    paddingL 10px 20px;
+    background-color: #fff;
+    border-bottom:1px solid #ddd;
+
+}
+
+.left {
+    display: flex;
+    alighn-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    color: #0073e6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.searchBox {
+    dispay: flex;
+    align-items: center;
+    bprder: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.searchIcon {
+    margin-right: 5px;
+    color: #555;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+
+
+.right {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.menuItem {
+    display: flex;
+    align0items: centr;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.menuItem: last-child {
+    margin-right: 0;
+}
+
+
+.filterIcon,
+.sortIcon,
+.viewIcon,
+.cartIcon,
+.moreIcon {
+    margin-right: 5px;
+}
+
+
+.menuText {
+    color: #rgb(215, 144, 144)
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
